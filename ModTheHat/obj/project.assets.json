@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\dev\\ModTheHat\\ModTheHat\\ModTheHat\\ModTheHat.csproj",
+      "projectUniqueName": "F:\\dev\\ModTheHat\\ModTheHat\\ModTheHat.csproj",
       "projectName": "ModTheHat",
-      "projectPath": "F:\\dev\\ModTheHat\\ModTheHat\\ModTheHat\\ModTheHat.csproj",
+      "projectPath": "F:\\dev\\ModTheHat\\ModTheHat\\ModTheHat.csproj",
       "packagesPath": "C:\\Users\\ccamb\\.nuget\\packages\\",
-      "outputPath": "F:\\dev\\ModTheHat\\ModTheHat\\ModTheHat\\obj\\",
+      "outputPath": "F:\\dev\\ModTheHat\\ModTheHat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ccamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
