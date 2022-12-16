@@ -1,10 +1,14 @@
 using System;
 
-public class Mod
+namespace Mods
 {
-    public String name = "Mod"; 
+    public class Mod
+    {
+        public String name = "Mod";
 
-    public static void Init() {
-        
+        public static void Init()
+        {
+
+        }
     }
 }
