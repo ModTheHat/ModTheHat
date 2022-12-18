@@ -4,11 +4,16 @@ using VioletUI;
 
 namespace ModTheHat
 {
-    
+
     public class ModTheHat
     {
+ 
+        public static bool loaded = false;
+ 
         public static void Init() {
             
+            if(!loaded) {
+
             // ADD YOUR MODS HERE!
 
             Dictionary<string, string> metadata = new Dictionary<string, string>();
@@ -18,6 +23,9 @@ namespace ModTheHat
             Mods.AlwaysLastHat.Init(); // Always Last Hat Mod
 
             StateMB.Singleton.Dispatcher.Run(UIActions.AddNotification(n));
+            loaded = true;
+
+            }
         }
     }
 
