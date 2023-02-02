@@ -1,5 +1,7 @@
 ﻿
 
+using System.Reflection;
+
 namespace ModTheHat
 {
     public class Loader
@@ -22,8 +24,24 @@ namespace ModTheHat
                 StateMB.Singleton.Dispatcher.Run(UIActions.AddNotification(n));
 
                 // Start loading the mods
-    
-                
+
+                /*string modPath = Path.Combine(Directory.GetCurrentDirectory(), "mod.dll");
+
+                if (File.Exists(modPath))
+                {
+                    Assembly modAssembly = Assembly.LoadFrom(modPath);
+                    Type[] types = modAssembly.GetTypes();
+                    foreach (Type type in types)
+                    {
+                        if (type.GetInterface("IMod") != null)
+                        {
+                            IMod mod = (IMod)Activator.CreateInstance(type);
+                            mod.Load();
+                            break;
+                        }
+                    }
+                }*/
+
 
                 // Mods are loaded.
 
@@ -33,4 +51,5 @@ namespace ModTheHat
         }
 
     }
+
 }
