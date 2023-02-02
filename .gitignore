@@ -1,3 +1,9 @@
-.Assembly-CSharp/Assembly-CSharp/bin/Debug/*
-.Assembly-CSharp/Assembly-CSharp/obj/Release/*
+.Assembly-CSharp/Assembly-CSharp/bin/*
+.Assembly-CSharp/Assembly-CSharp/obj/*
 .vs
+Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.AssemblyInfo.cs
+Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.AssemblyInfoInputs.cache
+Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.csproj.AssemblyReference.cache
+Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.GlobalUsings.g.cs
