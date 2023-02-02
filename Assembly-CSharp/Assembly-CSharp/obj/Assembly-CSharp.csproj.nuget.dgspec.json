@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dev\\ModTheHat\\seesharp\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj": {}
+    "E:\\dev\\ModTheHat\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj": {}
   },
   "projects": {
-    "E:\\dev\\ModTheHat\\seesharp\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+    "E:\\dev\\ModTheHat\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dev\\ModTheHat\\seesharp\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectUniqueName": "E:\\dev\\ModTheHat\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp.Base.mm",
-        "projectPath": "E:\\dev\\ModTheHat\\seesharp\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectPath": "E:\\dev\\ModTheHat\\Assembly-CSharp\\Assembly-CSharp\\Assembly-CSharp.csproj",
         "packagesPath": "C:\\Users\\ccamb\\.nuget\\packages\\",
-        "outputPath": "E:\\dev\\ModTheHat\\seesharp\\Assembly-CSharp\\Assembly-CSharp\\obj\\",
+        "outputPath": "E:\\dev\\ModTheHat\\Assembly-CSharp\\Assembly-CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ccamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
