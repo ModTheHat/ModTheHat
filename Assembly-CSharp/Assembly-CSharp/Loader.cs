@@ -1,6 +1,5 @@
-﻿
-
-using System.Reflection;
+﻿using System.Reflection;
+using MonoMod;
 
 namespace ModTheHat
 {
@@ -25,28 +24,43 @@ namespace ModTheHat
 
                 // Start loading the mods
 
-                /*string modPath = Path.Combine(Directory.GetCurrentDirectory(), "mod.dll");
+                string modsPath = Path.Combine(Directory.GetCurrentDirectory(), "mods/");
 
-                if (File.Exists(modPath))
+                if(File.Exists(modsPath)) 
                 {
-                    Assembly modAssembly = Assembly.LoadFrom(modPath);
-                    Type[] types = modAssembly.GetTypes();
-                    foreach (Type type in types)
+                    IEnumerable<String> allMods = System.IO.Directory.EnumerateFiles(modsPath);
+
+                    foreach (String mod in allMods)
                     {
-                        if (type.GetInterface("IMod") != null)
+                        Assembly modAssembly = Assembly.LoadFrom(mod);
+                        Type[] types = modAssembly.GetTypes();
+                        foreach (Type type in types)
                         {
-                            IMod mod = (IMod)Activator.CreateInstance(type);
-                            mod.Load();
-                            break;
+                            if (type.GetInterface("IMod") != null)
+                            {
+                                IMod? mod_i = Activator.CreateInstance(type) as IMod;
+
+                                
+
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+                                mod_i.Load();
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+                                break;
+                            }
                         }
                     }
-                }*/
+                } else
+                {
+                    System.IO.Directory.CreateDirectory(modsPath);
 
+                }
 
                 // Mods are loaded.
 
                 loaded = true;
 
+                
+                
             }
         }
 

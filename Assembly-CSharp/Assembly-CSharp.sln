@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp\Assembly-CSharp.csproj", "{BF589862-F933-4E0F-B8B7-3413FAEA27CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly-CSharp", "Assembly-CSharp\Assembly-CSharp.csproj", "{BF589862-F933-4E0F-B8B7-3413FAEA27CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysLastHat", "AlwaysLastHat\AlwaysLastHat.csproj", "{EC0A8363-2A1C-4CC5-ACDF-475B0F0ED9BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BF589862-F933-4E0F-B8B7-3413FAEA27CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF589862-F933-4E0F-B8B7-3413FAEA27CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF589862-F933-4E0F-B8B7-3413FAEA27CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0A8363-2A1C-4CC5-ACDF-475B0F0ED9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0A8363-2A1C-4CC5-ACDF-475B0F0ED9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0A8363-2A1C-4CC5-ACDF-475B0F0ED9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0A8363-2A1C-4CC5-ACDF-475B0F0ED9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
