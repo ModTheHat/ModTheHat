@@ -7,3 +7,7 @@ Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.AssemblyInfoInp
 Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.csproj.AssemblyReference.cache
 Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
 Assembly-CSharp/Assembly-CSharp/obj/Debug/net6.0/Assembly-CSharp.GlobalUsings.g.cs
+Assembly-CSharp/AlwaysLastHat/bin/*
+Assembly-CSharp/AlwaysLastHat/obj/*
+Assembly-CSharp/Assembly-CSharp/bin/*
+Assembly-CSharp/Assembly-CSharp/obj/*
