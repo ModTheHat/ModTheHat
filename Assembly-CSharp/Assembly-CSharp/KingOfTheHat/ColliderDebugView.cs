@@ -7,6 +7,7 @@
 using BCI.Loops;
 using Determinism;
 using Entitas;
+using ModTheHat;
 using UnityEngine;
 
 public class ColliderDebugView : BCIUpdateBehaviour

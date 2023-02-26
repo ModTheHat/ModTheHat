@@ -8,6 +8,7 @@ namespace ModTheHat
 
         public static bool loaded = false;
         public static bool is_modding = false;
+        public static bool collider_view = false;
 
         public static void Init()
         {

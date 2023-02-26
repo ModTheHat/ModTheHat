@@ -6,6 +6,7 @@
 
 using Controllers;
 using Cysharp.Threading.Tasks;
+using ModTheHat;
 using Rewired;
 using System;
 using System.Collections.Generic;
@@ -55,6 +56,7 @@ public class RadballrProvider : KothInputListener
                 return;
             this.index = 0;
         }
+
     }
 
     private async UniTaskVoid Update()
