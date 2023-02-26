@@ -1,0 +1,5 @@
+E:\dev\ModTheHat\Assembly-CSharp\Assembly-CSharp\obj\Release\net5.0\Assembly-CSharp.csproj.AssemblyReference.cache
+E:\dev\ModTheHat\Assembly-CSharp\Assembly-CSharp\obj\Release\net5.0\Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\dev\ModTheHat\Assembly-CSharp\Assembly-CSharp\obj\Release\net5.0\Assembly-CSharp.AssemblyInfoInputs.cache
+E:\dev\ModTheHat\Assembly-CSharp\Assembly-CSharp\obj\Release\net5.0\Assembly-CSharp.AssemblyInfo.cs
+E:\dev\ModTheHat\Assembly-CSharp\Assembly-CSharp\obj\Release\net5.0\Assembly-CSharp.csproj.CoreCompileInputs.cache

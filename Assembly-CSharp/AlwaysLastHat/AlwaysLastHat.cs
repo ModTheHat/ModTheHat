@@ -5,13 +5,14 @@ namespace AlwaysLastHat
     public class AlwaysLastHat
     {
 
-        public void Init()
+        public void Load()
         {
             // LandingPageView_onShow, but only once.
 
-            ModTheHat.API.do_Something();
+            //ModTheHat.API.do_Something();
 
-            On.LandingPageView.OnShow += (orig, self) =>
+
+            On.VersionView.Render += (orig, self, state) =>
             {
                 Dictionary<string, string> metadata = new Dictionary<string, string>();
 
